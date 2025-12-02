@@ -11,6 +11,8 @@ public class HelloController {
 
         String name = "BA";//value
         model.addAttribute("name", name);
+        model.addAttribute("className","Java");
+        model.addAttribute("classCode", 2545);
 
         return "hello";//all request start w/ 127.0.0.1 //returns the hello,mustache method
     }
